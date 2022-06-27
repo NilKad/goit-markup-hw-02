@@ -1,0 +1,25 @@
+body {
+    font-size: 36px;
+    padding: 1rem;
+}
+
+/* Напиши код под этой строкой */
+.up {
+    text-decoration: overline;
+}
+
+.through {
+    text-decoration: line-through;
+}
+
+.down {
+    text-decoration: underline;
+}
+
+.no {
+    text-decoration: underline dotted orange;
+}
+
+.combi {
+    text-decoration: underline;
+}
