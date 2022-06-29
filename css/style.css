@@ -16,13 +16,7 @@ active color -
   --footer-main-color: #ffffff;
   --footer-sec-color: rgba(255, 255, 255, 0.6);
   --filter-bt-bg: #f5f4fa;
-}
-.link {
-  text-decoration: none;
-}
-.tittle {
-  color: var(--main-tittle-color);
-}
+
 body {
   font-family: Roboto, sans-serif;
   color: var(--main-text-color);
