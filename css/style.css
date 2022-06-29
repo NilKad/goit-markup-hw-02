@@ -79,7 +79,7 @@ h4 {
 /* nav */
 .site-nav {
   font-weight: 500;
-  size: 14px;
+  font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--main-tittle-color);
