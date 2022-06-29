@@ -1,0 +1,235 @@
+/* Logo- Raleway w:700 s:26 hl:30.52 coor:#2196F3 #000000
+          Oleo Script w:400 s:26 lh:35.96 color:#FFFFFF
+Основной шрифт текста - Roboto w:400 s:14 color:#757575 
+H1 - Roboto w:900 s:44px lh:60px color:#ffffff
+H2 - Roboto w700 s:36 lh:42.19 color:#212121
+H3 - Roboto w700 s14 color:#212121
+active color - 
+
+*/
+:root {
+  --main-text-color: #757575;
+  --main-tittle-color: #212121;
+  --main-active-color: #2196f3;
+  --main-bg-color: #ffffff;
+  --sec-bg: #2f303a;
+  --footer-main-color: #ffffff;
+  --footer-sec-color: rgba(255, 255, 255, 0.6);
+  --filter-bt-bg: #f5f4fa;
+}
+.link {
+  text-decoration: none;
+}
+.tittle {
+  color: ;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--main-text-color);
+  letter-spacing: 0.03em;
+  background-color: var(--main-bg-color);
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: Roboto, sans-serif;
+  /* size: 14px; */
+  /* color: var(--mani-tittle-color); */
+}
+.accent {
+  color: var(--main-active-color);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.tittle {
+  color: var(--main-tittle-color);
+  font-weight: 700;
+}
+
+.works .tittle,
+.team .tittle {
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+/* LOGO */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: #000000;
+  text-decoration: none;
+}
+/* .f-logo {
+  color: #2196F3;
+} */
+
+/* a {
+  text-decoration: none;
+} */
+
+/* nav */
+.site-nav {
+  font-weight: 500;
+  size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--main-tittle-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--main-active-color);
+}
+
+.site-nav .link {
+  text-decoration: none;
+}
+
+.site-nav .link.current {
+  color: var(--main-active-color);
+}
+
+/* nav contact  */
+.contact .link {
+  color: var(--main-tittle-color);
+}
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--main-active-color);
+}
+
+.heroes {
+  background-color: var(--sec-bg);
+  /* color: var(--footer-main-color); */
+  letter-spacing: 0.06em;
+}
+.heroes .tittle,
+.heroes .button {
+  color: var(--footer-main-color);
+  letter-spacing: 0.06em;
+}
+
+.heroes .tittle {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* letter-spacing: 0.06em; */
+
+  /* text-align: center; */
+}
+.heroes .button,
+.portfolio .button.current {
+  color: var(--footer-main-color);
+  background-color: var(--main-active-color);
+  border: none;
+}
+.heroes .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  /* letter-spacing: 0.06em; */
+
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
+}
+
+/* benefits */
+/* .benefits .tittle{
+  color: var(--main-tittle-color);
+} */
+.benefits .list-tittle {
+  color: var(--main-tittle-color);
+  /* font-weight: 700; */
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.list .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Чем мы занимаемся */
+
+/* Наша комманда */
+.team .tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.list .tittle,
+.list .text {
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+.list .tittle {
+  font-weight: 500;
+  /* font-size: 16px;
+  line-height: 1.17; */
+}
+.list .text {
+  font-weight: 400;
+  /* font-size: 16px;
+  line-height: 1.17; */
+  /* identical to box height */
+}
+/* footer */
+footer {
+  background: var(--sec-bg);
+  color: var(--footer-main-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+}
+footer .logo {
+  color: var(--footer-main-color);
+}
+footer .link {
+  color: var(--footer-sec-color);
+}
+footer .map {
+  color: var(--footer-main-color);
+}
+/* .address .link {
+  color: var(--mani-tittle-color);
+} */
+.address .link:hover,
+.address .link:focus {
+  color: var(--main-active-color);
+}
+
+/* Портфолио */
+.portfolio .tittle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio .button {
+  color: var(--main-tittle-color);
+  background: var(--filter-bt-bg);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* text-align: center; */
+}
+
+.portfolio .text {
+  color: var(--main-text-color);
+  line-height: 30px;
+  /* letter-spacing: 0.03em; */
+}
