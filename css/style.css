@@ -16,7 +16,7 @@ active color -
   --footer-main-color: #ffffff;
   --footer-sec-color: rgba(255, 255, 255, 0.6);
   --filter-bt-bg: #f5f4fa;
-
+}
 body {
   font-family: Roboto, sans-serif;
   color: var(--main-text-color);
