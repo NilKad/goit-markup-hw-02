@@ -21,7 +21,7 @@ active color -
   text-decoration: none;
 }
 .tittle {
-  color: ;
+  color: var(--main-tittle-color);
 }
 body {
   font-family: Roboto, sans-serif;
@@ -136,17 +136,10 @@ h4 {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  /* letter-spacing: 0.06em; */
-
-  /* display: flex;
-  align-items: center;
-  text-align: center; */
 }
 
 /* benefits */
-/* .benefits .tittle{
-  color: var(--main-tittle-color);
-} */
+
 .benefits .list-tittle {
   color: var(--main-tittle-color);
   /* font-weight: 700; */
@@ -225,6 +218,7 @@ footer .map {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  border: none;
   /* text-align: center; */
 }
 
